@@ -21,7 +21,11 @@ if(arrNumbers[0] > arrNumbers[1] && arrNumbers[0] > arrNumbers[2]) {
     max = arrNumbers[2];
 }
 console.log(max);
-alert('Перший номер це ' + arrNumbers[0] + ',' + 'останній номер це ' + arrNumbers[2] + `\n` + arrNumbers[0] + '+' + arrNumbers[1] + '+' + arrNumbers[2] + ' = ' + result + `\n` +'Найменше число це ' + min + ',' + ' найбільше число це ' + max);
+alert(`Перший номер це ${arrNumbers[0]}, 
+останній номер це ${arrNumbers[2]}
+${arrNumbers[0]} + ${arrNumbers[1]} + ${arrNumbers[2]} = ${result}
+Найменше число це ${min},
+найбільше число це ${max}`);
 let number = prompt('Введіть, будь ласка одне число з тих, що ви вводили раніше.','');
 console.log(number);
 let enNum;
